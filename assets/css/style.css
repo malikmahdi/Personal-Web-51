@@ -8,7 +8,7 @@ body {
   background-color: white;
   width: 90%;
   margin: 50px auto;
-  padding: 5px 20px 5px 20px;
+  padding: 1px 20px 5px 20px;
 }
 
 .contentcard {
@@ -20,23 +20,24 @@ body {
 
 /* Artikel Style */
 .artikel h3 {
-  font-size: 23px;
+  font-size: 25px;
   font-weight: 700;
 }
 
 .artikel p {
   font-size: 15px;
   font-weight: 500;
+  text-align: justify;
 }
 
 .artikel button {
-  margin-top: 12px;
+  margin-top: 20px;
   cursor: pointer;
   border: 1px solid black;
   border-radius: 20px;
   color: white;
   background-color: black;
-  font-size: 16px;
+  font-size: 17px;
   padding: 7px 30px;
 }
 .artikel button:hover {
@@ -52,6 +53,8 @@ body {
 }
 
 .link-cv a {
+  font-size: 17px;
+  font-weight: 500;
   color: black;
   text-decoration: none;
 }
@@ -59,16 +62,21 @@ body {
   text-decoration: underline;
 }
 
+.link-cv img {
+  margin-left: 7px;
+  width: 19px;
+}
+
 /* Ikon Style */
 .ikon {
   text-align: center;
-  margin: 40px auto;
+  margin: 35px auto;
 }
 
-.ikon i {
+.ikon img {
   cursor: pointer;
-  font-size: 33px;
-  margin: 10px 10px;
+  width: 35px;
+  margin: 0px 9px;
 }
 /* -----------Ikon-----------*/
 
@@ -94,7 +102,7 @@ body {
 }
 
 .card h3 {
-  font-size: 21px;
+  font-size: 22px;
   margin-top: 1px;
   padding-top: 5px;
 }
